@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    width: 100%;
+    background-color: yellow;
+    height: 85px;
+}
+
+.wrapper {
+    width: 200px;
+    height: 80px;
+    margin-left: 200px;
+}
+
+#logo {
+    width: 78px;
+    height: 78px;
+    float: left;
+    margin-top: 5px;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+
+}
+
+#logotext {
+    width: 100px;
+    height: 80px;
+    float: left;
+}
+
+#logotext h2 {
+    padding-top: 25px;
+    font-family: serif ;
+}
+
+#bg-wrapper {
+    height: 500px;
+    background-image: url(../images/image2.png);
+    background-size: cover;
+    /* float: right; */
+}
+
+#bg-wrapper h3 {
+    text-align: center;
+    color: white;
+}
+
+#bg-wrapper h2 {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 500px;
+    padding: 5px;
+
+}
+
+#text-wrapper {
+    height: 220px;
+    width: 180px;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-bottom: 15px ;
+}
+
+/* #welcome {margin-top: 700px;
+margin-left: 85px;} */
+#myform input {
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;    
+    width: 120px;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 15px;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+#myform button {
+    display: block;
+    width: 130px;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 15px;
+    margin-left: 12px;
+    /* margin: auto; */
+    /* margin-top: 50px; */
+    
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+#smallbox {
+    text-align: center;
+    background-color: #ffcc00f1;
+    height: 80px;
+    width: 180px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+
+#bg-wrapper #welcome {
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-bottom: 50px; 
+}
+#welcome h3 {
+    text-align: center;
+    margin-left: 650px;
+    font-size: 25px;
+}
+
+#smallbox h4 {
+    color: black;
+}
+
+#contact h4 {
+    margin: auto;
+    text-align: center;
+}
